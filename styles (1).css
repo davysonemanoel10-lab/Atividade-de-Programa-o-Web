@@ -1,0 +1,141 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUNDO */
+body {
+    font-family: 'Segoe UI', Arial;
+    background: linear-gradient(120deg, #dbeafe, #f8fafc);
+}
+
+/* CABEÇALHO */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+/* MENU */
+nav {
+    background: #111827;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* EFEITO MENU */
+nav ul li a:hover {
+    background: #3b82f6;
+    transform: scale(1.1);
+}
+
+/* CONTEÚDO */
+main {
+    width: 85%;
+    margin: auto;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #e5e7eb;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* EFEITO HOVER */
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* LISTAS */
+ul, ol {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* BOTÃO */
+.botao {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #1e3a8a;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #3b82f6;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f1f5f9;
+}
+
+/* IMAGEM */
+img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* RODAPÉ */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
